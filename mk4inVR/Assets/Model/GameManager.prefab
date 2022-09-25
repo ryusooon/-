@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2893074434056244447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2893074434056244441}
+  - component: {fileID: 2893074434056244421}
+  - component: {fileID: 2893074434056244443}
+  - component: {fileID: 2893074434056244420}
+  - component: {fileID: 2893074434056244440}
+  - component: {fileID: 2893074434056244442}
+  - component: {fileID: 2893074434056244423}
+  - component: {fileID: 2893074434056244422}
+  - component: {fileID: 2893074434056244416}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2893074434056244441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893074434056244447}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 484.73956, y: 1609.9651, z: 1008.3206}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2893074434056244421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893074434056244447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824016b911c0dd148ab6659000c7a843, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2893074434056244443}
+  debugText: 0
+  debugTextVR: 0
+  vrMode: 0
+  autoAccelMode: 1
+--- !u!114 &2893074434056244443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893074434056244447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8b44be3de8bcb4da44809cadb8a0cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  FollowerA: {fileID: 0}
+  FollowerB: {fileID: 0}
+  FollowerC: {fileID: 0}
+--- !u!114 &2893074434056244420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893074434056244447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3909548ffd7550945979ab64fe670c7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 2893074434056244443}
+--- !u!114 &2893074434056244440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893074434056244447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84a5568ead1cab544a3e8f9aba69b989, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  warpRange: 4000
+--- !u!114 &2893074434056244442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893074434056244447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 981c4065dbbb1af4db395e203caec376, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debugTxtOb: {fileID: 0}
+  debugTxtVROb: {fileID: 0}
+--- !u!114 &2893074434056244423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893074434056244447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d6ec2fad201df42b2fefeddf22b4b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questTxtOb: {fileID: 0}
+--- !u!114 &2893074434056244422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893074434056244447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 223a75fbb8d15e94e93a7dbe90be3458, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VR_camera: {fileID: 0}
+  main_camera: {fileID: 0}
+--- !u!114 &2893074434056244416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2893074434056244447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b24d2d7ddcc2314c88f425f8cd1cc5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StayFollower_A: {fileID: 0}
+  Beacon_A: {fileID: 0}
+  Carsor: {fileID: 0}
+  manager: {fileID: 2893074434056244443}
